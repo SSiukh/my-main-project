@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путівець|1 рівень</title>
+    <link rel="icon " href="img/logos.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="level-main">
+        <div id="level-sidebar">
+            <div id="level-sidebar-icon-div">
+                <div id="sidebar-icon"><img src="img/sidebar-off.png" alt="side"></div>
+                <div onclick="window.location.href = 'gamemenu.html'" class="level-sidebar-icon"><img src="img/main-menu-side.png" alt="side"><span class="level-side-text">Головне меню</span></div>
+                <div onclick="levelInformation()" id="level-sidebar-icon-info"><img src="img/info-side.png" alt="side"><span class="level-side-text">Інформація</span></div>
+                <div onclick="window.location.href='index.html'" class="level-sidebar-icon"><img src="img/exit-side.png" alt="side"><span class="level-side-text">Вихід</span></div>
+            </div>
+        </div>
+        <div id="level-game-area">
+            <img draggable="true" id="img-stetsko" src="task-img/YaroslavStetsko1.png" alt="stetsko">
+            <img draggable="true" id="img-document" src="task-img/document1.png" alt="document">
+            <img draggable="true" id="img-stetsko-document" src="task-img/stetsko-document.png" alt="stetsko-doc">
+            <img id="img-balcon" src="task-img/balcon.png" alt="balcon">
+            <img id="img-stetsko-balcon" src="task-img/stetsko-balcon.png" alt="stetskoonbalcon">
+            <img onclick="Continue()" id="exit-info-button" src="img/main-menu-side.png" alt="exit">
+            <img onclick="window.location.href='level2.html'" id="img-play" src="img/play.png" alt="play">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

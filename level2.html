@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путівець|2 рівень</title>
+    <link rel="icon " href="img/logos.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="level2-main">
+        <div id="level-sidebar">
+            <div id="level-sidebar-icon-div">
+                <div id="sidebar-icon"><img src="img/sidebar-off.png" alt="side"></div>
+                <div onclick="window.location.href = 'gamemenu.html'" class="level-sidebar-icon"><img src="img/main-menu-side.png" alt="side"><span class="level-side-text">Головне меню</span></div>
+                <div onclick="levelInformation()" id="level-sidebar-icon-info"><img src="img/info-side.png" alt="side"><span class="level-side-text">Інформація</span></div>
+                <div onclick="window.location.href='index.html'" class="level-sidebar-icon"><img src="img/exit-side.png" alt="side"><span class="level-side-text">Вихід</span></div>
+            </div>
+        </div>
+        <div id="level-game-area">
+            <div id="lev2-main-block">
+                <div class="lev2-row">
+                    <div id="lev2-block-0" class="lev2-block">
+                        <img id="lev2-0" class="lev2-block-img" src="task-img/lev2-cherry.png" alt="cherry">
+                        <img id="lev2-0-0" class="lev2-block-img" src="task-img/lev2-cherry.png" alt="cherry">
+                    </div>
+                    <div id="lev2-block-1" class="lev2-block">
+                        <img id="lev2-1" class="lev2-block-img" src="task-img/lev2-bug.png" alt="bug">
+                        <img id="lev2-1-1" class="lev2-block-img" src="task-img/lev2-bug.png" alt="bug">
+                    </div>
+                    <div id="lev2-block-2" class="lev2-block">
+                        <img id="lev2-2" class="lev2-block-img" src="task-img/lev2-cherry.png" alt="cherry">
+                        <img id="lev2-2-2" class="lev2-block-img" src="task-img/lev2-cherry.png" alt="cherry">
+                    </div>
+                </div>
+                <div class="lev2-row">
+                    <div id="lev2-block-3" class="lev2-block">
+                        <img id="lev2-3" class="lev2-block-img" src="task-img/lev2-sound.png" alt="sound">
+                        <img id="lev2-3-3" class="lev2-block-img" src="task-img/lev2-sound.png" alt="sound">
+                    </div>
+                    <div id="lev2-block"><img id="lev2-play-img" src="img/play.png" alt="play"></div>
+                    <div id="lev2-block-4" class="lev2-block">
+                        <img id="lev2-4" class="lev2-block-img" src="task-img/lev2-house.png" alt="house">
+                        <img id="lev2-4-4" class="lev2-block-img" src="task-img/lev2-house.png" alt="house">
+                    </div>
+                </div>
+                <div class="lev2-row">
+                    <div id="lev2-block-5" class="lev2-block">
+                        <img id="lev2-5" class="lev2-block-img" src="task-img/lev2-bug.png" alt="bug">
+                        <img id="lev2-5-5" class="lev2-block-img" src="task-img/lev2-bug.png" alt="bug">
+                    </div>
+                    <div id="lev2-block-6" class="lev2-block">
+                        <img id="lev2-6" class="lev2-block-img" src="task-img/lev2-house.png" alt="house">
+                        <img id="lev2-6-6" class="lev2-block-img" src="task-img/lev2-house.png" alt="house">
+                    </div>
+                    <div id="lev2-block-7" class="lev2-block">
+                        <img id="lev2-7" class="lev2-block-img" src="task-img/lev2-sound.png" alt="sound">
+                        <img id="lev2-7-7" class="lev2-block-img" src="task-img/lev2-sound.png" alt="sound">
+                    </div>
+                </div>
+            </div>
+
+            <div id="level2-phase-2-main-block">
+                <div id="level2-phase2-main">
+                    <div class="lev2-block-ph2">
+                        <img id="lev2-img-phase2-cherry" draggable="true" class="lev2-block-img-ph2" src="task-img/lev2-cherry.png" alt="cherry">
+                    </div>
+                    <div class="lev2-block-ph2">
+                        <img id="lev2-img-phase2-bug" draggable="true" class="lev2-block-img-ph2" src="task-img/lev2-bug.png" alt="bug">
+                    </div>
+                    <div class="lev2-block-ph2">
+                        <img id="lev2-img-phase2-sound" draggable="true" class="lev2-block-img-ph2" src="task-img/lev2-sound.png" alt="sound">
+                    </div>
+                    <div class="lev2-block-ph2">
+                        <img id="lev2-img-phase2-house" draggable="true" class="lev2-block-img-ph2" src="task-img/lev2-house.png" alt="house">
+                    </div>
+                </div>
+                <div id="level2-phase2-text">
+                    <p>Садок <div class="phase-text-div" id="phase2-cherry"><img id="text-div-imgs-cherry" class="text-div-imgs-lev2" src="task-img/lev2-cherry.png" alt="cherry"></div> коло <div class="phase-text-div" id="phase2-house"><img id="text-div-imgs-house" class="text-div-imgs-lev2" src="task-img/lev2-house.png" alt="house"></div>, <br />
+                        <div class="phase-text-div" id="phase2-bug"><img id="text-div-imgs-bug" class="text-div-imgs-lev2" src="task-img/lev2-bug.png" alt="bug"></div> над вишнями <div class="phase-text-div" id="phase2-sound"><img id="text-div-imgs-sound" class="text-div-imgs-lev2" src="task-img/lev2-sound.png" alt="sound"></div>...
+                    </p>
+                </div>
+            </div>
+            
+            <img onclick="window.location.href='level3.html'" id="img-play-lev2" src="img/play.png" alt="play">
+            <img onclick="Continue()" id="exit-info-button" src="img/main-menu-side.png" alt="exit">
+        </div>
+    </div>
+    <script src="scriptlev2.js"></script>
+
+</body>
+</html>
