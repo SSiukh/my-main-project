@@ -1,0 +1,31 @@
+@media (max-width: 500px){
+    #first-full{
+        justify-content: start;
+        padding-top: 130px;
+        padding-bottom: 70px;
+    }
+    #light-button{
+        top: 30px;
+        width: 40px;
+        height: 40px;
+    }
+    #logo{
+        width: 234px;
+        height: 234px;
+        
+    }
+    #first-text-div{
+        margin-top: 35px;
+    }
+    #first-text{
+        font-size: 18px;
+    }
+    #first-button{
+        margin-top: 50px;
+        width: 120px;
+        height: 30px;
+    }
+    #first-button-text{
+        font-size: 10px;
+    }
+}
