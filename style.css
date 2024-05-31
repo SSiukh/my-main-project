@@ -1,7 +1,7 @@
 #first-full {
     background: var(--1, #091120);
     width: auto;
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
