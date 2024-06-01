@@ -41,7 +41,7 @@
     }
 }
 
-@media (max-height: 500px){
+@media (max-height: 600px){
     #first-full{
         justify-content: start;
         padding-top: 50px;
