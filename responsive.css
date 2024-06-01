@@ -71,4 +71,15 @@
     #first-button-text{
         font-size: 10px;
     }
+    .game-menu-button{
+        width: 250px;
+        height: 65px;
+        margin: 25px;
+    }
+    .game-menu-button-text{
+        font-size: 20px;
+    }
+    #game-menu-main{
+        height: 100vh;
+    }
 }
