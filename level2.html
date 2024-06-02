@@ -9,16 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="responsiveLev2.css">
 </head>
 <body>
     
     <div id="level2-main">
         <div id="level-sidebar">
             <div id="level-sidebar-icon-div">
-                <div id="sidebar-icon"><img src="img/sidebar-off.png" alt="side"></div>
-                <div onclick="window.location.href = 'gamemenu.html'" class="level-sidebar-icon"><img src="img/main-menu-side.png" alt="side"><span class="level-side-text">Головне меню</span></div>
-                <div onclick="levelInformation()" id="level-sidebar-icon-info"><img src="img/info-side.png" alt="side"><span class="level-side-text">Інформація</span></div>
-                <div onclick="window.location.href='index.html'" class="level-sidebar-icon"><img src="img/exit-side.png" alt="side"><span class="level-side-text">Вихід</span></div>
+                <div id="sidebar-icon"><img class="img-sidebar-icon" src="img/sidebar-off.png" alt="side"></div>
+                <div onclick="window.location.href = 'gamemenu.html'" class="level-sidebar-icon"><img class="img-sidebar-icon" src="img/main-menu-side.png" alt="side"><span class="level-side-text">Головне меню</span></div>
+                <div onclick="levelInformation()" id="level-sidebar-icon-info"><img id="img-sidebar-icon-info" src="img/info-side.png" alt="side"><span class="level-side-text">Інформація</span></div>
+                <div onclick="window.location.href='index.html'" class="level-sidebar-icon"><img class="img-sidebar-icon" src="img/exit-side.png" alt="side"><span class="level-side-text">Вихід</span></div>
             </div>
         </div>
         <div id="level-game-area">

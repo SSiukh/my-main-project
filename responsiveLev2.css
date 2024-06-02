@@ -1,0 +1,53 @@
+@media (max-width: 400px){
+    #level2-main{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #level-sidebar{
+        margin-top: 20px;
+        flex-direction:row;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        
+    }
+    #level-sidebar-icon-div{
+        display: flex;
+        gap: 20px;
+    }
+    .img-sidebar-icon{
+        width: 30px;
+        height: 30px;
+    }
+    #img-sidebar-icon-info{
+        width: 17px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .level-sidebar-icon{
+        margin: 10px;
+        display: none;
+    }
+    #level-sidebar:hover .level-side-text{
+        display: none;
+    }
+    #level-sidebar:hover .level-sidebar-icon{
+        display: flex;
+    }
+    #level-sidebar:hover #level-sidebar-icon-info{
+        display: flex;
+    }
+    #sidebar-icon{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar-icon-info{
+        margin: 0;
+        display: none;
+    } 
+
+}

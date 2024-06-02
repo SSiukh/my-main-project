@@ -269,7 +269,7 @@
     justify-content: start;
     align-items: center;
     width: auto;
-    height: 1080px;
+    height: 100vh;
     background-image: url('background/spring.png');
     background-repeat: no-repeat;
     background-size: cover;
