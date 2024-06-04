@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путівець|3 рівень</title>
+    <link rel="icon " href="img/logos.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="level3-main">
+        <div id="level-sidebar">
+            <div id="level-sidebar-icon-div">
+                <div id="sidebar-icon"><img src="img/sidebar-off.png" alt="side"></div>
+                <div onclick="window.location.href = 'gamemenu.html'" class="level-sidebar-icon"><img src="img/main-menu-side.png" alt="side"><span class="level-side-text">Головне меню</span></div>
+                <div onclick="levelInformation()" id="level-sidebar-icon-info"><img src="img/info-side.png" alt="side"><span class="level-side-text">Інформація</span></div>
+                <div onclick="window.location.href='index.html'" class="level-sidebar-icon"><img src="img/exit-side.png" alt="side"><span class="level-side-text">Вихід</span></div>
+            </div>
+        </div>
+        <div id="level3-game-area">
+            <h1 class="h1-text">Розташуйте в хронологічному порядку:</h1>
+            <div id="lev3-first-block">
+                <div id="lev3-first-block-0" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">I.</p>
+                    </div>
+                    <img id="lev3-first-img-0" src="task-img/lev3/oleg.png" alt="oleg" class="lev3-first-imgs">
+                </div>
+                <div id="lev3-first-block-1" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">II.</p>
+                    </div>
+                    <img id="lev3-first-img-1" src="task-img/lev3/igor.png" alt="igor" class="lev3-first-imgs">
+                </div>
+                <div id="lev3-first-block-2" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">III.</p>
+                    </div>
+                    <img id="lev3-first-img-2" src="task-img/lev3/olga-transparent.png" alt="olga" class="lev3-first-imgs">
+                </div>
+                <div id="lev3-first-block-3" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">IV.</p>
+                    </div>
+                    <img id="lev3-first-img-3" src="task-img/lev3/sviatoslav.png" alt="sviatoslav" class="lev3-first-imgs">
+                </div>
+                <div id="lev3-first-block-4" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">V.</p>
+                    </div>
+                    <img id="lev3-first-img-4" src="task-img/lev3/volodymyr.png" alt="volodymyr" class="lev3-first-imgs">
+                </div>
+                <div id="lev3-first-block-5" class="lev3-first-blocks">
+                    <div class="lev3-first-num">
+                        <p class="lev3-first-num-text">VI.</p>
+                    </div>
+                    <img id="lev3-first-img-5" src="task-img/lev3/yaroslav.png" alt="yaroslav" class="lev3-first-imgs">
+                </div>
+            </div>
+            <div id="lev3-second-block">
+                <div id="lev3-second-block-0" class="lev3-second-blocks">
+                    <img id="lev3-second-img-0" src="task-img/lev3/olga-transparent.png" alt="olga" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Княгиня Ольга</p>
+                    <p id="lev3-second-info-0" class="lev3-second-info">Залізна жінка, спалила древлян голубами</p>
+                </div>
+                <div id="lev3-second-block-1" class="lev3-second-blocks">
+                    <img id="lev3-second-img-1" src="task-img/lev3/yaroslav.png" alt="yaroslav" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Ярослав Мудрий</p>
+                    <p id="lev3-second-info-1" class="lev3-second-info">Тесть Європи, князював в часи розквіту Русі</p>
+                </div>
+                <div id="lev3-second-block-2" class="lev3-second-blocks">
+                    <img id="lev3-second-img-2" src="task-img/lev3/sviatoslav.png" alt="sviatoslav" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Святослав</p>
+                    <p id="lev3-second-info-2" class="lev3-second-info">Київський князь, значно розширив територію Руси-України</p>
+                </div>
+                <div id="lev3-second-block-3" class="lev3-second-blocks">
+                    <img id="lev3-second-img-3" src="task-img/lev3/volodymyr.png" alt="volodymyr" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Володимир Великий</p>
+                    <p id="lev3-second-info-3" class="lev3-second-info">Київський князь за якого провідною релігією стало Християнство</p>
+                </div>
+                <div id="lev3-second-block-4" class="lev3-second-blocks">
+                    <img id="lev3-second-img-4" src="task-img/lev3/igor.png" alt="igor" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Ігор Рюрикович</p>
+                    <p id="lev3-second-info-4" class="lev3-second-info">Київський князь, був вбитий древлянами, за що його жінка помстилась</p>
+                </div>
+                <div id="lev3-second-block-5" class="lev3-second-blocks">
+                    <img id="lev3-second-img-5" src="task-img/lev3/oleg.png" alt="oleg" class="lev3-second-imgs">
+                    <p class="lev3-second-text">Олег Віщий</p>
+                    <p id="lev3-second-info-5" class="lev3-second-info">Київський князь, що захопив місто у 882 році, убивши його правителів Аскольда і Діра</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scriptlev3.js"></script>
+</body>
+</html>

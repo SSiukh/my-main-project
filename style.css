@@ -394,3 +394,134 @@
     bottom: 70px;
     display: none;
 }
+#level3-main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 1080px;
+    background-image: url('background/mountain-sunrise.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#level3-game-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+    border-radius: 150px;
+    background-color:#c7d2e81b;
+    width: 1250px;
+    height: 850px;
+    border: 2px solid #FFF;
+}
+#lev3-first-block{
+    display: flex;
+}
+.lev3-first-blocks{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 170px;
+    height: 170px;
+    background-color: #c7d2e85d;
+    gap: 5px;
+    margin: 10px;
+}
+.h1-text{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 108px;
+}
+.lev3-second-imgs{
+    width: 125px;
+    height: 125px;
+    margin: 5px;
+}
+#lev3-second-block{
+    display: flex;
+}
+.lev3-second-blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 170px;
+    height: 170px;
+    background-color: #c7d2e85d;
+    gap: 5px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.lev3-second-text{
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Anonymous Pro';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.lev3-first-num{
+    margin: 0;
+    margin-left: 15px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: left;
+}
+.lev3-first-num-text{
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.7px;
+}
+.lev3-first-blocks:hover {
+    border: 2px solid #438396ea;
+}
+.lev3-second-blocks:hover {
+    border: 2px solid #438396ea;
+}
+.clicked {
+    background-color: #3e6bcd76;
+}
+.lev3-first-imgs{
+    width: 120px;
+    height: 120px;
+    display: none;
+}
+.lev3-second-info{
+    display: none;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Anonymous Pro';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
