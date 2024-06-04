@@ -103,6 +103,10 @@
         width: 10px;
         height: 10px;
     }
+    #img-play-lev2{
+        width: 50px;
+        height: 55px;
+    }
 }
 
 @media (max-height: 450px){
@@ -213,6 +217,10 @@
         width: 10px;
         height: 10px;
     }
+    #img-play-lev2{
+        width: 50px;
+        height: 55px;
+    }
 }
 
 @media (min-width: 400px) and (max-width: 700px) and (min-height: 600px){
@@ -320,4 +328,9 @@
         width: 15px;
         height: 15px;
     }
+    #img-play-lev2{
+        width: 50px;
+        height: 55px;
+    }
+
 }

@@ -1,0 +1,226 @@
+@media (max-width: 400px){
+    #level3-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar{
+        margin-left: 0px;
+        flex-direction:row;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    #level-sidebar-icon-div{
+        display: flex;
+        gap: 20px;
+    }
+    .img-sidebar-icon{
+        width: 30px;
+        height: 30px;
+    }
+    #img-sidebar-icon-info{
+        width: 17px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .level-sidebar-icon{
+        margin: 10px;
+        display: none;
+    }
+    #level-sidebar:hover .level-side-text{
+        display: none;
+    }
+    #level-sidebar:hover .level-sidebar-icon{
+        display: flex;
+    }
+    #level-sidebar:hover #level-sidebar-icon-info{
+        display: flex;
+    }
+    #sidebar-icon{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar-icon-info{
+        margin: 0;
+        display: none;
+    } 
+    #level3-game-area{
+        margin: 0;
+        margin-top: 120px;
+        margin-left: 0px;
+        width: max-content;
+        height: max-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 50px;
+        flex-direction: row-reverse;
+    }
+    .h1-text{
+        font-size: 13px;
+        display: none;
+    }
+    #lev3-first-block{
+        display: flex;
+        flex-direction: column;
+    }
+    #lev3-second-block{
+        display: flex;
+        flex-direction: column;
+    }
+    .lev3-first-blocks{
+        width: 60px;
+        height: 50px;
+        margin: 3px;
+        border-radius: 20px;
+    }
+    .lev3-second-blocks{
+        width: max-content 20px;
+        height: 50px;
+        margin: 3px;
+        margin-right: 25px;
+        border-radius: 20px;
+    }
+    .lev3-second-imgs{
+        width: 30px;
+        height: 30px;
+        margin: 2px;
+    }
+    .lev3-second-text{
+        font-size: 10px;
+        font-weight: 400px;
+    }
+    .lev3-first-num-text{
+        font-size: 12px;
+    }
+    .lev3-first-imgs{
+        width: 30px;
+        height: 30px; 
+    }
+    .lev3-second-info{
+        font-size: 10px;
+        margin-top: 4px;
+    }
+}
+
+@media (max-height: 450px){
+    #level3-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar{
+        margin-left: 0px;
+        flex-direction: row;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    #level-sidebar-icon-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .img-sidebar-icon{
+        width: 30px;
+        height: 30px;
+    }
+    #img-sidebar-icon-info{
+        width: 17px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .level-sidebar-icon{
+        margin: 10px;
+        display: none;
+    }
+    #level-sidebar:hover .level-side-text{
+        display: none;
+    }
+    #level-sidebar:hover .level-sidebar-icon{
+        display: flex;
+    }
+    #level-sidebar:hover #level-sidebar-icon-info{
+        display: flex;
+    }
+    #sidebar-icon{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar-icon-info{
+        margin: 0;
+        display: none;
+    } 
+    #level3-game-area{
+        margin: 0;
+        margin-top: 120px;
+        margin-left: 0px;
+        width: max-content;
+        height: max-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 50px;
+        flex-direction: column;
+    }
+    .h1-text{
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    #lev3-first-block{
+        display: flex;
+    }
+    #lev3-second-block{
+        display: flex;
+    }
+    .lev3-first-blocks{
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+        border-radius: 20px;
+    }
+    .lev3-second-blocks{
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+        border-radius: 20px;
+    }
+    .lev3-second-imgs{
+        width: 30px;
+        height: 30px;
+        margin: 2px;
+    }
+    .lev3-second-text{
+        font-size: 10px;
+        font-weight: 400px;
+    }
+    .lev3-first-num-text{
+        font-size: 12px;
+    }
+    .lev3-first-imgs{
+        width: 30px;
+        height: 30px; 
+    }
+    .lev3-second-info{
+        font-size: 0px;
+    }
+}

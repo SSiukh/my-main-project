@@ -399,7 +399,7 @@
     justify-content: start;
     align-items: center;
     width: auto;
-    height: 1080px;
+    height: 100vh;
     background-image: url('background/mountain-sunrise.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -434,6 +434,7 @@
     background-color: #c7d2e85d;
     gap: 5px;
     margin: 10px;
+    padding: 5px;
 }
 .h1-text{
     color: #FFF;
@@ -524,7 +525,4 @@
     line-height: normal;
     letter-spacing: 1px;
     margin-top: 10px;
-}
-.go{
-    width: 50px;
 }
