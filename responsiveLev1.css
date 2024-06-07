@@ -70,21 +70,28 @@
     }
     #img-stetsko{
         width: 100px;
+        margin: 10px;
     }
     #img-document{
         width: 100px;
+        margin: 10px;
     }
     #img-stetsko-document{
         width: 100px;
+        margin: 10px;
     }
     #img-balcon{
         width: 100px;
+        margin: 10px;
     }
     #img-stetsko-balcon{
         width: 100px;
+        margin: 10px;
     }
     #img-play{
-        width: 50px;
+        height: 100px;
+        width: 100px;
+        bottom: 30px;
     }
 }
 
@@ -158,20 +165,27 @@
     }
     #img-stetsko{
         width: 100px;
+        margin: 10px;
     }
     #img-document{
         width: 100px;
+        margin: 10px;
     }
     #img-stetsko-document{
         width: 100px;
+        margin: 10px;
     }
     #img-balcon{
         width: 100px;
+        margin: 10px;
     }
     #img-stetsko-balcon{
         width: 100px;
+        margin: 10px;
     }
     #img-play{
-        width: 50px;
+        height: 100px;
+        width: 100px;
+        bottom: 30px;
     }
 }
