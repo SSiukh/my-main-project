@@ -1,0 +1,177 @@
+@media (max-width: 400px){
+    #level-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar{
+        margin-left: 0px;
+        flex-direction:row;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    #level-sidebar-icon-div{
+        display: flex;
+        gap: 20px;
+    }
+    .img-sidebar-icon{
+        width: 30px;
+        height: 30px;
+    }
+    #img-sidebar-icon-info{
+        width: 17px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .level-sidebar-icon{
+        margin: 10px;
+        display: none;
+    }
+    #level-sidebar:hover .level-side-text{
+        display: none;
+    }
+    #level-sidebar:hover .level-sidebar-icon{
+        display: flex;
+    }
+    #level-sidebar:hover #level-sidebar-icon-info{
+        display: flex;
+    }
+    #sidebar-icon{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar-icon-info{
+        margin: 0;
+        display: none;
+    } 
+    #level-game-area{
+        margin: 0;
+        margin-top: 120px;
+        margin-left: 0px;
+        width: max-content;
+        height: max-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 50px;
+        flex-direction: column;
+    }
+    .lev1-img{
+        height: 100px;
+    }
+    #img-stetsko{
+        width: 100px;
+    }
+    #img-document{
+        width: 100px;
+    }
+    #img-stetsko-document{
+        width: 100px;
+    }
+    #img-balcon{
+        width: 100px;
+    }
+    #img-stetsko-balcon{
+        width: 100px;
+    }
+    #img-play{
+        width: 50px;
+    }
+}
+
+@media (max-height: 450px){
+    #level-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar{
+        margin-left: 0px;
+        flex-direction:column;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    #level-sidebar-icon-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .img-sidebar-icon{
+        width: 30px;
+        height: 30px;
+    }
+    #img-sidebar-icon-info{
+        width: 17px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .level-sidebar-icon{
+        margin: 10px;
+        display: none;
+    }
+    #level-sidebar:hover .level-side-text{
+        display: none;
+    }
+    #level-sidebar:hover .level-sidebar-icon{
+        display: flex;
+    }
+    #level-sidebar:hover #level-sidebar-icon-info{
+        display: flex;
+    }
+    #sidebar-icon{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #level-sidebar-icon-info{
+        margin: 0;
+        display: none;
+    } 
+    #level-game-area{
+        margin-top: 50px;
+        margin-left: 0px;
+        width: max-content;
+        height: max-content;
+        padding: 20px;
+        border-radius: 50px;
+    }
+    .lev1-img{
+        height: 100px;
+    }
+    #img-stetsko{
+        width: 100px;
+    }
+    #img-document{
+        width: 100px;
+    }
+    #img-stetsko-document{
+        width: 100px;
+    }
+    #img-balcon{
+        width: 100px;
+    }
+    #img-stetsko-balcon{
+        width: 100px;
+    }
+    #img-play{
+        width: 50px;
+    }
+}

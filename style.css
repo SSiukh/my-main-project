@@ -120,7 +120,7 @@
     justify-content: start;
     align-items: center;
     width: auto;
-    height: 1080px;
+    height: 100vh;
     background-image: url('background/mount-night.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -525,4 +525,84 @@
     line-height: normal;
     letter-spacing: 1px;
     margin-top: 10px;
+}
+#level4-main{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    background-image: url('background/autumn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#test-element{
+    background-color: brown;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+#test-area{
+    width: 400px;
+    height: 400px;
+    background-color: #172a4fbe;
+}
+#main-lev4-maze{
+    width: 550px;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.maze-row{
+    display: flex;
+}
+.maze-block{
+    width: 48px;
+    height: 48px;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+#level4-game-area{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    border-radius: 150px;
+    background-color:#c7d2e81b;
+    width: 1250px;
+    height: 850px;
+    border: 2px solid #FFF;
+}
+.maze-wall{
+    background-color: #BD946E;
+}
+.maze-road{
+    background-color: #595959;
+}
+.maze-gold{
+    background-color: #FFE55D;
+}
+.maze-door{
+    background-color: rgb(115, 96, 70);
+}
+.maze-player{
+    background-color: rgb(179, 227, 245);
+    background-image: url('task-img/YaroslavStetsko1.png');
+    background-size: cover, contain; /* Параметри для кожного зображення */
+    background-position: center, top right; /* Позиції для кожного зображення */
+}
+.maze-task{
+    position: absolute;
+    width: 700px;
+    height: 550px;
+    background-color: #c7d2e8;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: none;
 }
