@@ -599,10 +599,50 @@
 }
 .maze-task{
     position: absolute;
-    width: 700px;
-    height: 550px;
-    background-color: #c7d2e8;
+    width: 1000px;
+    height: 700px;
+    background-color: rgb(150, 126, 93);
     border: 2px solid white;
-    border-radius: 50px;
+    border-radius: 76px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     display: none;
+}
+#maze-task2{
+    background-color: #463eb6;
+}
+#maze-task3{
+    background-color: cadetblue;
+}
+.lev4-task-h{
+    width: 700px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 50px;
+}
+#lev4-task-but-exit{
+    display: none;
+}
+.lev4-task-button{
+    width: 384px;
+    height: 84px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.183);
+    border-radius: 27px;
+    margin: 20px;
+    color: #ffffff;
+    font-size: 26px;
+    font-family: 'Anonymous Pro';
+    font-weight: 500;
+}
+.lev4-task-button:hover{
+    background-color: rgba(255, 255, 255, 0.481);
 }
