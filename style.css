@@ -1,648 +1,788 @@
 #first-full {
-    background: var(--1, #091120);
-    width: auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 200px;
-    padding-top: 200px;
-
+  background: var(--1, #091120);
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 
 #first-text-div {
-    margin-top: 108px;
+  margin-top: 108px;
 }
 
 #first-text {
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.5px;
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
 }
 
 #first-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    margin-top: 80px;
-    width: 200px;
-    height: 51px;
-    background-color: #FFF;
-    border-radius: 1px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 80px;
+  width: 200px;
+  height: 51px;
+  background-color: #fff;
+  border-radius: 1px #000;
 }
 
 #first-button:hover {
-    background-color: #172a4f;
+  background-color: #172a4f;
 }
 
 #first-button-text {
-    color: #000;
-    font-family: 'Anonymous Pro';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1px;
-    margin: 0px;
+  color: #000;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 0px;
 }
 
 #first-button:hover #first-button-text {
-    color: #FFF;
+  color: #fff;
 }
 
 #light-button {
-    width: 87px;
-    height: 85px;
-    position: absolute;
-    top: 67px;
-    right: 67px;
+  width: 87px;
+  height: 85px;
+  position: absolute;
+  top: 67px;
+  right: 67px;
 }
 
 #light-button:hover {
-    border: 4px solid #463eb6;
-    border-radius: 23px;
+  border: 4px solid #463eb6;
+  border-radius: 23px;
 }
-
 
 /* ////////////////////game menu//////////////////////// */
 #game-menu-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 1080px;
-    background-image: url('background/mount-night.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/mount-night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 #game-menu-buttons {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .game-menu-button {
-    width: 611px;
-    height: 99px;
-    background-color: transparent;
-    border-color: #FFF;
-    border-radius: 50px;
-    margin: 39px;
-    backdrop-filter: blur(4px);
+  width: 611px;
+  height: 99px;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 50px;
+  margin: 39px;
+  backdrop-filter: blur(4px);
 }
-.game-menu-button:hover{
-    background-color: rgba(199, 223, 255, 0.208);
+.game-menu-button:hover {
+  background-color: rgba(199, 223, 255, 0.208);
 }
 
-.game-menu-button-text{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.5px;
+.game-menu-button-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
 }
 
 /* //////////////////////////////////////level//////////////////// */
 
-#level-main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url('background/mount-night.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#level-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/mount-night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#level-sidebar{
-    border: 2px solid #FFF;
-    margin-bottom: 100px;
-    margin-left: 40px;
-    border-radius: 30px;
-    background-color: #c7d2e828 ;
-    display: flex;
-    flex-direction: column;
+#level-sidebar {
+  border: 2px solid #fff;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  border-radius: 30px;
+  background-color: #c7d2e828;
+  display: flex;
+  flex-direction: column;
 }
 
 #level-sidebar:hover .level-side-text {
-    display: flex;
+  display: flex;
 }
 
-#sidebar-icon{
-    margin: 50px;
-    margin-bottom: 60px;
+#sidebar-icon {
+  margin: 50px;
+  margin-bottom: 60px;
 }
 
-#level-sidebar-icon-info{
-    margin: 50px 50px 20px 70px;
-    display: flex;
-    align-items: center;
+#level-sidebar-icon-info {
+  margin: 50px 50px 20px 70px;
+  display: flex;
+  align-items: center;
 }
 
-.level-sidebar-icon{
-    margin: 50px;
-    display: flex;
-    align-items: center;
+.level-sidebar-icon {
+  margin: 50px;
+  display: flex;
+  align-items: center;
 }
 
-.level-side-text{
-    display: none;
-    margin-left: 20px;
-    font-family: 'Anonymous Pro', monospace;
-    font-weight: 700;
-    font-size: 30px;
-    color: #ffffff;
+.level-side-text {
+  display: none;
+  margin-left: 20px;
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
 }
 
-#level-game-area{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 200px;
-    border-radius: 150px;
-    background-color:#c7d2e81b;
-    width: 1250px;
-    height: 850px;
-    border: 2px solid #FFF;
+#level-game-area {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 200px;
+  border-radius: 150px;
+  background-color: #c7d2e81b;
+  width: 1250px;
+  height: 850px;
+  border: 2px solid #fff;
 }
 
 /* ///////////////// */
-#img-stetsko{
-    margin: 20px;
-    width: 300px;
+#img-stetsko {
+  margin: 20px;
+  width: 300px;
 }
-#zone1{
-    background-color:#c7d2e81b;
-    width: 400px;
-    height: 400px;
-    border: 2px solid #FFF;
+#zone1 {
+  background-color: #c7d2e81b;
+  width: 400px;
+  height: 400px;
+  border: 2px solid #fff;
 }
-#img-document{
-    width: 300px;
+#img-document {
+  width: 300px;
 }
-#img-stetsko-document{
-    display: none;
-    width: 300px;
+#img-stetsko-document {
+  display: none;
+  width: 300px;
 }
-#img-balcon{
-    width: 300px;
+#img-balcon {
+  width: 300px;
 }
-#img-stetsko-balcon{
-    width: 300px;
-    display: none;
+#img-stetsko-balcon {
+  width: 300px;
+  display: none;
 }
-#img-play{
-    cursor: pointer;
-    width: 100px;
-    position: absolute;
-    bottom: 70px;
-    display: none;
+#img-play {
+  cursor: pointer;
+  width: 100px;
+  position: absolute;
+  bottom: 70px;
+  display: none;
 }
 
 /* ////////////////////////////levels/////////////////////////// */
 
-#levels-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url('background/mount-night.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#levels-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/mount-night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* info */
-.info-button{
-    width: 305px;
-    height: 70px;
-    background-color: transparent;
-    border-color: #FFF;
-    border-radius: 50px;
-    backdrop-filter: blur(4px);
+.info-button {
+  width: 305px;
+  height: 70px;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 50px;
+  backdrop-filter: blur(4px);
 }
 
-.info-button-text{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.5px;
+.info-button-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
 }
 
-.info-text{
-    color: #c7d2e8;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 30px;
-    margin: 75px; 
+.info-text {
+  color: #c7d2e8;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  margin: 75px;
 }
 
-#exit-info-button{
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    display: none;
+#exit-info-button {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  display: none;
 }
 
 /* //////////////////// */
-#level2-main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url('background/spring.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#level2-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/spring.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#lev2-main-block{
-    display: flex;
-    gap: 15px;
+#lev2-main-block {
+  display: flex;
+  gap: 15px;
 }
-.lev2-row{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#lev2-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 170px;
-    height: 170px;
-    background-color: #c7d2e8bf;
+.lev2-row {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.lev2-block{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 170px;
-    height: 170px;
-    background-color: #c7d2e85d;
+#lev2-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 170px;
+  background-color: #c7d2e8bf;
 }
 
-.lev2-block:hover{
-    background-color: #c7d2e88a;
-    cursor: pointer;
+.lev2-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 170px;
+  background-color: #c7d2e85d;
 }
 
-.lev2-block-img{
-    width: 100px;
-    height: 100px;
-    display: none;
+.lev2-block:hover {
+  background-color: #c7d2e88a;
+  cursor: pointer;
 }
 
-#lev2-play-img{
-    width: 100px;
-    height: 100px;
-    display: none;
+.lev2-block-img {
+  width: 100px;
+  height: 100px;
+  display: none;
 }
 
-.lev2-block-ph2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 170px;
-    height: 170px;
-    background-color: #c7d2e85d;
+#lev2-play-img {
+  width: 100px;
+  height: 100px;
+  display: none;
 }
 
-#level2-phase-2-main-block{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.lev2-block-ph2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 170px;
+  background-color: #c7d2e85d;
 }
 
-#level2-phase2-main{
-    display: flex;
-    gap: 10px;
+#level2-phase-2-main-block {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.lev2-block-img-ph2{
-    width: 100px;
-    height: 100px;
-    display: flex;
+#level2-phase2-main {
+  display: flex;
+  gap: 10px;
 }
 
-#level2-phase2-text{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    color: #e7ebf2;
-    gap: 12px;
+.lev2-block-img-ph2 {
+  width: 100px;
+  height: 100px;
+  display: flex;
 }
 
-.phase-text-div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 50px;
-    background-color: #c7d2e85d;
-    border-radius: 7px;
-    border: 1px solid #FFF;
+#level2-phase2-text {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #e7ebf2;
+  gap: 12px;
 }
 
-.text-div-imgs-lev2{
-    display: none;
-    width: 45px;
-    height: 45px;
+.phase-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  background-color: #c7d2e85d;
+  border-radius: 7px;
+  border: 1px solid #fff;
 }
 
-#text-after{
-    display: none;
-    font-size: 50px;
-    color: #e7ebf2;
+.text-div-imgs-lev2 {
+  display: none;
+  width: 45px;
+  height: 45px;
 }
 
-#img-play-lev2{
-    cursor: pointer;
-    width: 100px;
-    position: absolute;
-    bottom: 70px;
-    display: none;
+#text-after {
+  display: none;
+  font-size: 50px;
+  color: #e7ebf2;
 }
-#level3-main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url('background/mountain-sunrise.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+#img-play-lev2 {
+  cursor: pointer;
+  width: 100px;
+  position: absolute;
+  bottom: 70px;
+  display: none;
 }
-#level3-game-area{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 200px;
-    border-radius: 150px;
-    background-color:#c7d2e81b;
-    width: 1250px;
-    height: 850px;
-    border: 2px solid #FFF;
+#level3-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/mountain-sunrise.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
-#lev3-first-block{
-    display: flex;
+#level3-game-area {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
+  border-radius: 150px;
+  background-color: #c7d2e81b;
+  width: 1250px;
+  height: 850px;
+  border: 2px solid #fff;
 }
-.lev3-first-blocks{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 170px;
-    height: 170px;
-    background-color: #c7d2e85d;
-    gap: 5px;
-    margin: 10px;
-    padding: 5px;
+#lev3-first-block {
+  display: flex;
 }
-.h1-text{
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    margin-bottom: 108px;
+.lev3-first-blocks {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 170px;
+  background-color: #c7d2e85d;
+  gap: 5px;
+  margin: 10px;
+  padding: 5px;
 }
-.lev3-second-imgs{
-    width: 125px;
-    height: 125px;
-    margin: 5px;
+.h1-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  margin-bottom: 108px;
 }
-#lev3-second-block{
-    display: flex;
+.lev3-second-imgs {
+  width: 125px;
+  height: 125px;
+  margin: 5px;
 }
-.lev3-second-blocks{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid white;
-    border-radius: 30px;
-    width: 170px;
-    height: 170px;
-    background-color: #c7d2e85d;
-    gap: 5px;
-    margin: 10px;
-    text-align: center;
-    padding: 5px;
+#lev3-second-block {
+  display: flex;
 }
-.lev3-second-text{
-    margin: 0;
-    color: #ffffff;
-    font-family: 'Anonymous Pro';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1px;
-    margin: 0px;
+.lev3-second-blocks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 30px;
+  width: 170px;
+  height: 170px;
+  background-color: #c7d2e85d;
+  gap: 5px;
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
 }
-.lev3-first-num{
-    margin: 0;
-    margin-left: 15px;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    text-align: left;
+.lev3-second-text {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Anonymous Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin: 0px;
 }
-.lev3-first-num-text{
-    margin: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.7px;
+.lev3-first-num {
+  margin: 0;
+  margin-left: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+}
+.lev3-first-num-text {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
 }
 .lev3-first-blocks:hover {
-    border: 2px solid #438396ea;
+  border: 2px solid #438396ea;
 }
 .lev3-second-blocks:hover {
-    border: 2px solid #438396ea;
+  border: 2px solid #438396ea;
 }
 .clicked {
-    background-color: #3e6bcd76;
+  background-color: #3e6bcd76;
 }
-.lev3-first-imgs{
-    width: 120px;
-    height: 120px;
-    display: none;
+.lev3-first-imgs {
+  width: 120px;
+  height: 120px;
+  display: none;
 }
-.lev3-second-info{
-    display: none;
-    margin: 0;
-    color: #ffffff;
-    font-family: 'Anonymous Pro';
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: 1px;
-    margin-top: 10px;
+.lev3-second-info {
+  display: none;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Anonymous Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
-#level4-main{
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: auto;
-    height: 100vh;
-    background-image: url('background/autumn.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#level4-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/autumn.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-#test-element{
-    background-color: brown;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    top: 50px;
-    left: 50px;
+#test-element {
+  background-color: brown;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
-#test-area{
-    width: 400px;
-    height: 400px;
-    background-color: #172a4fbe;
+#test-area {
+  width: 400px;
+  height: 400px;
+  background-color: #172a4fbe;
 }
-#main-lev4-maze{
-    width: 550px;
-    height: 500px;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+#main-lev4-maze {
+  width: 550px;
+  height: 500px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
-.maze-row{
-    display: flex;
+.maze-row {
+  display: flex;
 }
-.maze-block{
-    width: 48px;
-    height: 48px;
-    border-radius: 13px;
-    border: 1px solid black;
+.maze-block {
+  width: 48px;
+  height: 48px;
+  border-radius: 13px;
+  border: 1px solid black;
 }
-#level4-game-area{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 200px;
-    border-radius: 150px;
-    background-color:#c7d2e81b;
-    width: 1250px;
-    height: 850px;
-    border: 2px solid #FFF;
+#level4-game-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  border-radius: 150px;
+  background-color: #c7d2e81b;
+  width: 1250px;
+  height: 850px;
+  border: 2px solid #fff;
 }
-.maze-wall{
-    background-color: #BD946E;
+.maze-wall {
+  background-color: #bd946e;
 }
-.maze-road{
-    background-color: #595959;
+.maze-road {
+  background-color: #595959;
 }
-.maze-gold{
-    background-color: #FFE55D;
+.maze-gold {
+  background-color: #ffe55d;
 }
-.maze-door{
-    background-color: rgb(115, 96, 70);
+.maze-door {
+  background-color: rgb(115, 96, 70);
 }
-.maze-player{
-    background-color: rgb(179, 227, 245);
-    background-image: url('task-img/YaroslavStetsko1.png');
-    background-size: cover, contain; /* Параметри для кожного зображення */
-    background-position: center, top right; /* Позиції для кожного зображення */
+.maze-player {
+  background-color: rgb(179, 227, 245);
+  background-image: url("task-img/YaroslavStetsko1.png");
+  background-size: cover, contain; /* Параметри для кожного зображення */
+  background-position: center, top right; /* Позиції для кожного зображення */
 }
-.maze-task{
-    position: absolute;
-    width: 1000px;
-    height: 700px;
-    background-color: rgb(150, 126, 93);
-    border: 2px solid white;
-    border-radius: 76px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: none;
+.maze-task {
+  position: absolute;
+  width: 1000px;
+  height: 700px;
+  background-color: rgb(150, 126, 93);
+  border: 2px solid white;
+  border-radius: 76px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
 }
-#maze-task2{
-    background-color: #463eb6;
+#maze-task2 {
+  background-color: #463eb6;
 }
-#maze-task3{
-    background-color: cadetblue;
+#maze-task3 {
+  background-color: cadetblue;
 }
-.lev4-task-h{
-    width: 700px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Anonymous Pro', monospace;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    margin-bottom: 50px;
+.lev4-task-h {
+  width: 700px;
+  color: #fff;
+  text-align: center;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  margin-bottom: 50px;
 }
-#lev4-task-but-exit{
-    display: none;
+#lev4-task-but-exit {
+  display: none;
 }
-.lev4-task-button{
-    width: 384px;
-    height: 84px;
-    border: 2px solid rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.183);
-    border-radius: 27px;
-    margin: 20px;
-    color: #ffffff;
-    font-size: 26px;
-    font-family: 'Anonymous Pro';
-    font-weight: 500;
+.lev4-task-button {
+  width: 384px;
+  height: 84px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.183);
+  border-radius: 27px;
+  margin: 20px;
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Anonymous Pro";
+  font-weight: 500;
 }
-.lev4-task-button:hover{
-    background-color: rgba(255, 255, 255, 0.481);
+.lev4-task-button:hover {
+  background-color: rgba(255, 255, 255, 0.481);
+}
+
+/* ////////////lev 5///////////////// */
+#lev5-main-div {
+  background-color: #9088cc;
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#lev5-question-div {
+  width: 940px;
+  height: 155px;
+  border: 3px solid #936be9;
+  border-radius: 68px;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.lev5-question-text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+.lev5-ansvers-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+  flex-direction: column;
+  gap: 30px;
+}
+.lev5-ansver-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.lev5-ansver-block {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 71px;
+  width: 555px;
+  height: 212px;
+  background: #cfcee8;
+  font-size: 25px;
+  color: #000;
+}
+.lev5-ansver-block:hover {
+  background-color: #936be9;
+  color: white;
+}
+#lev5-exit {
+  cursor: pointer;
+  position: absolute;
+  top: 57px;
+  right: 57px;
+}
+.lev5-complete-line {
+  margin-top: 50px;
+  display: flex;
+  width: max-content;
+}
+.lev5-complete-block {
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  width: 139px;
+  height: 31px;
+}
+
+.lev5-complete-animation {
+  background: linear-gradient(to right, #93e897 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: fillBackground 2s both;
+}
+.lev5-uncomplete-animation {
+  background: linear-gradient(to right, #e89393 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  animation: fillBackground 2s both;
+}
+@keyframes fillBackground {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+.lev5-ansver-text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+#lev5-game-start {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fff;
+  border-radius: 71px;
+  width: 355px;
+  height: 160px;
+  background: #cfcee8;
+}
+.lev5-timer {
+  display: flex;
+  position: absolute;
+  top: 57px;
+  left: 57px;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #cfcee8;
+}
+.lev5-text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #000;
+}
+.lev5-complete-block-1 {
+  background-color: #93e897;
 }

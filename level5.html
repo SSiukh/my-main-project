@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Level 5</title>
-</head>
-<body>
-    <h1>level 5</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Путівець|5 рівень</title>
+    <link rel="icon " href="img/logos.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="responsiveLev4.css" />
+  </head>
+  <body>
+    <img
+      onclick="window.location.href='gamemenu.html'"
+      id="lev5-exit"
+      src="img/main-menu-side.png"
+      alt="exit"
+    />
+    <!-- <p id="lev5-timer"></p> -->
+    <div id="lev5-main-div">
+      <div id="lev5-question-div">
+        <h2 id="lev5-question-text" class="lev5-question-text">
+          Бліц з 10 питань, готові? Тисни старт!
+        </h2>
+      </div>
+      <div id="lev5-game-start" onclick="StartGame()">
+        <p class="lev5-text">Старт</p>
+      </div>
+
+      <div class="lev5-ansvers-grid">
+        <div class="lev5-ansver-row">
+          <!-- <div class="lev5-ansver-block"><p class="lev5-ansver-text"></p></div>
+          <div class="lev5-ansver-block"><p class="lev5-ansver-text"></p></div> -->
+        </div>
+        <div class="lev5-ansver-row">
+          <!-- <div class="lev5-ansver-block"><p class="lev5-ansver-text"></p></div>
+          <div class="lev5-ansver-block"><p class="lev5-ansver-text"></p></div> -->
+        </div>
+      </div>
+      <div class="lev5-complete-line">
+        <div id="lev5-complete-block0" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block1" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block2" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block3" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block4" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block5" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block6" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block7" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block8" class="lev5-complete-block"></div>
+        <div id="lev5-complete-block9" class="lev5-complete-block"></div>
+      </div>
+    </div>
+
+    <script src="scriptlev5.js"></script>
+  </body>
 </html>
