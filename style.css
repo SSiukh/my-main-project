@@ -655,6 +655,28 @@
   align-items: center;
   justify-content: center;
 }
+.main-div-animation-five {
+  animation: backgroundswitch 3s both;
+}
+@keyframes backgroundswitch {
+  from {
+    background-color: #9088cc;
+  }
+  to {
+    background-color: #4c4882;
+  }
+}
+.main-div-animation-five-back {
+  animation: backgroundswitchback 3s both;
+}
+@keyframes backgroundswitchback {
+  from {
+    background-color: #4c4882;
+  }
+  to {
+    background-color: #9088cc;
+  }
+}
 #lev5-question-div {
   width: 940px;
   height: 155px;
@@ -717,11 +739,39 @@
   width: max-content;
 }
 .lev5-complete-block {
-  display: none;
+  display: block;
   border: 1px solid #fff;
   border-radius: 16px;
   width: 139px;
   height: 31px;
+}
+
+.lev5-complete-block-disappear {
+  background-color: #9088cc;
+  animation: disappear 5s both;
+}
+@keyframes disappear {
+  0% {
+    border: 1px solid #fff;
+    background-color: transparent;
+  }
+  100% {
+    border: 1px solid #ffffff00;
+    background-color: #4c4882;
+  }
+}
+.lev5-complete-block-transparent {
+  border: 1px solid #ffffff00;
+  background-color: #4c4882;
+  animation: transparents 3s both;
+}
+@keyframes transparents {
+  0% {
+    background-color: #4c4882;
+  }
+  100% {
+    background-color: transparent;
+  }
 }
 
 .lev5-complete-animation {
@@ -785,4 +835,221 @@
 }
 .lev5-complete-block-1 {
   background-color: #93e897;
+}
+.tetris-elements {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #7f4fbe;
+  margin: 2px;
+}
+
+.typing-title {
+  text-align: left;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-right: 0.13em solid orange;
+  white-space: nowrap;
+  animation: typing 5s steps(30, end), blink-caret 0.75s step-start infinite;
+  overflow: hidden;
+}
+
+#typing-row-0 {
+  text-align: left;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-right: 0.13em solid orange;
+  white-space: nowrap;
+  animation: typing 5s steps(30, end), blink-caret 0.75s step-start infinite;
+  overflow: hidden;
+  margin: 2px;
+}
+
+#typing-row-1 {
+  text-align: left;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-right: 0.13em solid orange;
+  white-space: nowrap;
+  animation: typing 5s steps(30, end), blink-caret 0.75s step-start infinite;
+  overflow: hidden;
+  margin: 2px;
+}
+
+#typing-row-2 {
+  text-align: left;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-right: 0.13em solid orange;
+  white-space: nowrap;
+  animation: typing 5s steps(30, end) 15s,
+    blink-caret 0.75s step-start infinite 15s;
+  overflow: hidden;
+  margin: 2px;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+.typing-text-block {
+  position: absolute;
+  top: 200px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.code-address {
+  display: none;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 38px;
+  width: 800px;
+  height: 500px;
+  background: #4e4474;
+  padding: 30px;
+  gap: 10px;
+}
+.code-address:hover {
+  background-color: #2b294d;
+  border: 1px solid #000000;
+}
+
+.code-address-сomunicate {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 38px;
+  width: 800px;
+  height: 500px;
+  background: #444b74;
+  padding: 30px;
+  gap: 10px;
+}
+.code-address-comunicate:hover {
+  background-color: #2b294d;
+  border: 1px solid #000000;
+}
+.address-title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #fff;
+}
+.addres-row-first {
+  background-color: #c4efc6;
+  width: 800px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addres-row-first:hover {
+  animation: address-first 1s both;
+}
+@keyframes address-first {
+  from {
+    height: 40px;
+    background-color: #c4efc6;
+  }
+  to {
+    height: 60px;
+    background-color: #dbdbdb;
+  }
+}
+.addres-row-second {
+  background-color: #5e4646;
+  width: 800px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #989898;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.addres-row-second:hover {
+  animation: address-second 1s both;
+}
+@keyframes address-second {
+  from {
+    height: 40px;
+    background-color: #5e4646;
+  }
+  to {
+    height: 60px;
+    background-color: #dbdbdb;
+  }
+}
+.addres-row-numb {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #858585;
+  margin: 0;
+  margin-left: 10px;
+}
+.addres-row-a {
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #858585;
+  cursor: pointer;
+}
+.addres-row-a:hover {
+  color: #20072a;
+}
+.address-a {
+  text-decoration: none;
+}
+.main-comunicate-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: 100vh;
+  background-image: url("background/mount-night.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
